@@ -1,0 +1,69 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling for the app */
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header styling */
+.header img {
+  max-width: 60%;
+  image align: ;
+}
+
+/* Footer styling */
+.footer {
+  margin-top: 20px;
+}
+
+/* Main body styling */
+.main-body {
+  margin-top: 20px;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-section input {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  max-width: 200px;
+  border: 1px solid #ccc;
+}
+
+.input-section select {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  max-width: 200px;
+  border: 1px solid #ccc;
+}
+
+.input-section button {
+  padding: 5px 10px;
+  background-color: #3a036d;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Sub body styling */
+.sub-body p {
+  font-size: 18px;
+  font-weight: bold;
+}

@@ -1,0 +1,22 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a default font and text color */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Center the app content */
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Add more global styles here as needed */
